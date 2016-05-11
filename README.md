@@ -24,11 +24,11 @@ Merge made by the 'recursive' strategy.
  create mode 100644 LICENSE
  create mode 100644 README.md
  
- ###查看所有文件(可选)
+###查看所有文件(可选)
  $ ls -ah
 
 
- ###补充不需要上传的文件或文件夹列表：(可选)
+###补充不需要上传的文件或文件夹列表：(可选)
 $ vim .gitignore
 
 ###$ git add .
