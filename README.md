@@ -1,15 +1,17 @@
 # github_manual
 
  ★将本地工程提交至github步骤：★
- 1.先在网站上新建XXX.git
- 
- 2.然后在本地执行以下操作：
-$ git init
+=======================================
 
-$ git remote add origin git@github.com:Username/XXX.git
+##1.先在网站上新建XXX.git
+
+##2.然后在本地执行以下操作：
+###$ git init
+
+###$ git remote add origin git@github.com:Username/XXX.git
 
 
-$ git pull origin master
+###$ git pull origin master
 Enter passphrase for key '/c/Users/Administrator/.ssh/id_rsa':
 From github.com:Username/XXX
  * branch            master     -> FETCH_HEAD
@@ -22,19 +24,19 @@ Merge made by the 'recursive' strategy.
  create mode 100644 LICENSE
  create mode 100644 README.md
  
- 查看所有文件(可选)
+ ###查看所有文件(可选)
  $ ls -ah
 
 
- 补充不需要上传的文件或文件夹列表：(可选)
+ ###补充不需要上传的文件或文件夹列表：(可选)
 $ vim .gitignore
 
-$ git add .
+###$ git add .
 
-$ git commit -a -m "First commit"
+###$ git commit -a -m "First commit"
 
 
-$ git push origin master
+###$ git push origin master
 Enter passphrase for key '/c/Users/Administrator/.ssh/id_rsa':
 Counting objects: 24, done.
 Delta compression using up to 2 threads.
